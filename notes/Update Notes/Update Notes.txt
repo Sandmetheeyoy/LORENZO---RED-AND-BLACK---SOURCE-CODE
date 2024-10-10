@@ -1,0 +1,142 @@
+/**********************************************/
+/		  NOTE: This is just a demo!	       /
+/**********************************************/
+
+
+27.02.2024 LOG:
+	- Changed enemy alert value from 46 to 48
+	- Added a condition for the enemy: if visible, then could do things
+		+ Added a condition: if the enemy is visible, then do damage, if not then no damage is done
+	- Added a mission controller, a state machine for said controller and text boxes to show things
+	- Added a dialogue index. If this dialogue index goes down to zero, the mission will begin.
+
+28.02.2024 - 26.03.2024:
+	- Changed the story (from a remake of 1932's Scarface to a completely original story).
+	- Drafted a new story.
+	- Playtested multiple times (useless anyway).
+	
+27.03.2024 LOG:
+	- Finished the story for Act One.
+	- Added / drew a cutscene for the first chapter.
+	- Added new graphics.
+	
+28.03.2024 LOG:
+	- Added a new scene showing the aftermath of the shootout.
+	- Added two enemies to the first shootout to increase intensity.
+	- Revived hope for the game because it is so difficult.
+
+29.03.2024 LOG:
+	- Relocated the two new enemies to the central room in the first shootout.
+	- Reverse this change above - that makes the game too easy.
+	- Added two components to player and enemy animations: leg and torso:
+		+ Leg shows leg movement.
+		+ Torso shows gun aiming.
+		+ System was inspired by Wolfenstein
+	
+30.03.24 LOG:
+	- Added GUINO as an enemy for the player.
+	- GUINO will actually move because Vince accidentally closes the door too hard.
+	- Changed enemy torso animation -> they looked like they were holding autocannons.
+	- Fixed the issue where bullet dents (which are actual objects) would overlay the sprites of the enemies.
+		+ However, still need to fix the issue where bullet dents overlay the CORPSES of different NPCs.
+	- Need to add more cutscenes.
+
+31.03.2024 LOG:
+	- Added cutscene switching and progression.
+	- Plan to do one cutscene a day.
+	- Plan to finish the first level by Wednesday next week.
+	
+02.04.2024 LOG:
+	- Added a new style of color and lighting to the cutscenes:
+		+ Now lighting is done in the form of dithering.
+		+ The color palette is restricted to 3 colors only.
+	- Lost a ton of motivation, but will still keep fighting!
+		+ NEVER GIVE UP ON THE SUITS GANG!
+		
+09.04.2024 LOG:
+	- Reworked the first level.
+	- Aded new enemy AI behaviors: ambush mode, idle mode and roam mode. These are implemented as different properties.
+		+ Ambush: enemies look at one direction and stays still.
+		+ Idle: enemies stay still but look around.
+		+ Roam: enemies search for you and look around.
+	- Fixed the issues of bulletholes not appearing properly.
+	- Changed Lupara's spread from 9 to 32 (damn)
+	- Changed Shotgun's spread from 9 to 12.5.
+	- Changed Tommygun damage from 10 to 15.
+	- Added limits to where enemies could go under a form of an object.
+	
+11.04.2024 LOG:
+	- Tried to add new mechanics / levels (the Fine Rose Diner level went through 2 iterations, both failed due to being too boring).
+	- Tried to add a FOG mechanic, however didn't work too well + unsuitable with the kind of game I'm playing.
+	- Changed hitbox hitscan detection to point hitscan detection:
+		+ Used hitboxes of the PLAYER THEMSELF (absolutely dumb) to calculate for hitscan. This meant that
+			bullets can collide with walls even when they shouldn't.
+		+ Changed to point hit detection, which was much more clever (because the bullets are small).
+		+ This also means that enemies are more lethal as their shots could go through small gaps. 
+		
+12.04.2024 LOG:
+	- Changed the movement of the player: from walking 8 pixels at a time every 15 tics (out of 60 tics)
+	to walking every 5 tics. Also changed the way I write logs :)
+	- Changed the movement of the enemy to match the player's movement.
+	- Created a new level for the docks: Paulie.
+	- Added crates that can dynamically orient themselves.
+	- Added a gun sprite onto the crates to signify that these are gun crates.
+	- Added a "marking feature": this is to mark the important characters that come in the form of enemies.
+		+ A choice called "mark" will be on the character editing menu: toggling this will cause a purple / fuchsia 
+			square to appear on the enemy's head.
+
+13.04.2024 LOG:
+	- Added a dynamically rotating truck.
+	- Added two new levels for chapter 3.
+	- Tried adding reloading to the enemies, but failed.  
+	
+14.04.2024 LOG:
+	- Added new precise collision settings for boxes and trucks.
+	- Updated the truck sprite.
+	- Reduced sawed-off spread from 32 to 18.
+	
+16.04.2024 LOG:
+	- Thought of adding a car riding feature (drive by shooting)
+	
+19.04.2024 LOG:
+	- Added the prologue cutscene.
+	
+21.04.2024 LOG:
+	- Added a custom font (not in use).
+	- Added a feature where the Thompson loses its accuracy the longer you hold down the trigger.
+	- Made the enemy slightly more aggressive when they are alerted (their field of view expands)
+	- Added new character sprites for the holdings of different guns.
+	- Added a feature where enemies stop screaming after dying (a bug that caused enemies to keep yelling after dying).
+	- PLACEHOLDER REPORT:
+		+ Drivable vehicle.
+		+ The font.
+		
+23.04.2024 LOG:
+	- Shifted project focus: From cutscenes interwoven with gameplay to gameplay that tells a story.	
+	- Will plan to utilize different time jumps (from the past, present and future).
+	- Planning to remove all cutscenes.
+	- Planning to optimize all exterior functions.
+	- Implemented the new font: THE LORENZO FONT. It currently does not include numbers but it will.
+	- Figured out the story.
+	- Re-ordered the levels.
+	- Created the sprite sheets for enemy Cremes, enemy Spades and Donnie M.
+	
+23.04.2024 - 29.04.2024 LOG:
+	- Created new cutscene features (people walking).
+	- Removed the traced cutscenes (too ugly and complicated).
+	- Added paranoia to the enemies.
+	
+30.04.2024 LOG:
+	- Note to self: Stop tampering with the enemy AI.
+	- Added new bullets (no idea why);
+	
+
+30.05.2024 LOG:
+	- Been a while.
+	- Added new enemy suicide frame.
+	- Added eavesdropping and text.
+	- During the note break, I've been adding:
+		+ A new UI.
+		+ A new gameplay style.
+		+ Screen shake.
+		+ Enemy blood...

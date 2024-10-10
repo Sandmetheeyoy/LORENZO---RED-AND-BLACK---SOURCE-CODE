@@ -1,0 +1,9 @@
+/// @description initialize
+legs_dir = random(360);
+image_angle = init_angle;
+ROF = 0;
+ROF_END = 3;
+update_counter = 0;
+// in use
+used = false;
+by_whom = o_player;

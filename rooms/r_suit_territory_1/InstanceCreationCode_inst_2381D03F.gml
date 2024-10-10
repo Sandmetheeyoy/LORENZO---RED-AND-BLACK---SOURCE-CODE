@@ -1,0 +1,4 @@
+texts = [
+	"CAFE JOB HUH?",
+	"HEY, DON'T DO ANYTHING TO THE GUYS THERE OKAY?"
+];

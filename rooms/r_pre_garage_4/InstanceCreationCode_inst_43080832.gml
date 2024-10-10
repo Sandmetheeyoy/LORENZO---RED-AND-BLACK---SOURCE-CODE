@@ -1,0 +1,1 @@
+texts = ["WHAT THE?", "LORENZO TRICKED US!", "OPEN FIRE!!"];

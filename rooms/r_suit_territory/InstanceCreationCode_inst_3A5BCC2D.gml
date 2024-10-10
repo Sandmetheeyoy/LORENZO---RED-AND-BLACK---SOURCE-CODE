@@ -1,0 +1,4 @@
+texts = [
+	"WHEN WILL THAT OLD MAN SHUT UP?",
+	"WHAT'S HE TALKING ABOUT?"
+];

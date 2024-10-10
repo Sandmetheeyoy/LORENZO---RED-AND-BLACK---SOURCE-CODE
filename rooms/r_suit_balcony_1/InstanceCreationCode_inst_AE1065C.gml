@@ -1,0 +1,1 @@
+sprite_index = s_old_man_deadbody;

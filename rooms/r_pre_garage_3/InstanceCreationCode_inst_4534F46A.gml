@@ -1,0 +1,4 @@
+texts = [
+	"LET'S WAIT FOR THEM.",
+	"KEEP YOUR HEAD DOWN."
+];

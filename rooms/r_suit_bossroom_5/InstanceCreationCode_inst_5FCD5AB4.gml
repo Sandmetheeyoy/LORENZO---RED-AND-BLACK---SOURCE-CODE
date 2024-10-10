@@ -1,0 +1,1 @@
+image_index = choose(5, 6, 7);

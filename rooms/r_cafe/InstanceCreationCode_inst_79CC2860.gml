@@ -1,0 +1,4 @@
+texts = [
+	"HMMMM?",
+	"HMMMM.."
+];

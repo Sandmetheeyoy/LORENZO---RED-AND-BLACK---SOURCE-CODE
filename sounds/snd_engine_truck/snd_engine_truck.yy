@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_engine_truck",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":3,
+  "conversionMode":0,
+  "duration":0.414966,
+  "name":"snd_engine_truck",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_engine_truck.wav",
+  "type":0,
+  "volume":1.0,
+}

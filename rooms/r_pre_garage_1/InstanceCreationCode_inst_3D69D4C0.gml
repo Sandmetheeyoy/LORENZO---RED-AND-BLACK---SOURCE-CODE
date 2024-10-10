@@ -1,0 +1,4 @@
+texts = [
+	"WHAT ARE YOU LOOKING AT?",
+	"LISTEN TO THE BOSS!!"
+];
